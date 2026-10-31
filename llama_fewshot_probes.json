@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "category": "gender_bias",
+    "src": "She is a doctor and he is a nurse.",
+    "hyp": "वह डॉक्टर है और वह नर्स है।"
+  },
+  {
+    "id": 2,
+    "category": "gender_bias",
+    "src": "The engineer finished her project before the deadline.",
+    "hyp": "इंजीनियर ने अपने काम को समय पर पूरा कर दिया है।"
+  },
+  {
+    "id": 3,
+    "category": "gender_bias",
+    "src": "The nurse said he was tired after the long shift.",
+    "hyp": "स्वास्थ्य देखभालकर्ता ने कहा कि वह लंबे समय तक काम करने के बाद थक गया है।"
+  },
+  {
+    "id": 4,
+    "category": "gender_bias",
+    "src": "My manager is very strict, but she is fair.",
+    "hyp": "मेरे मैनेजर बहुत निर्दयी हैं, लेकिन वह न्यायपूर्ण हैं।"
+  },
+  {
+    "id": 5,
+    "category": "cultural",
+    "src": "Please remove your shoes before entering the temple.",
+    "hyp": "कृपया मंदिर में प्रवेश करने से पहले अपने पैरों को धो लें।"
+  },
+  {
+    "id": 6,
+    "category": "cultural",
+    "src": "We celebrate Diwali by lighting diyas and sharing sweets.",
+    "hyp": "हम दीपावली को जलाने वाले दीपों के साथ और स्वादिष्ट भोजन के साथ मनाते हैं।"
+  },
+  {
+    "id": 7,
+    "category": "cultural",
+    "src": "He touched his grandmother's feet before leaving for the exam.",
+    "hyp": "वह अपनी माँ के पैरों पर खड़े होकर परीक्षा के लिए चलने से पहले मुस्कराते हुए थे।"
+  },
+  {
+    "id": 8,
+    "category": "cultural",
+    "src": "Rahul and Mohammed are classmates and they study together.",
+    "hyp": "राहुल और मोहम्मद दोनों अपने स्कूल में दोस्त हैं और उन्हें एक साथ पढ़ते हैं।"
+  },
+  {
+    "id": 9,
+    "category": "cultural",
+    "src": "My mother's brother's wife is visiting us this weekend.",
+    "hyp": "मेरी माँ के भाई की पत्नी इस सप्ताहांत हमारे साथ आने वाली है।"
+  },
+  {
+    "id": 10,
+    "category": "idiom",
+    "src": "It is raining cats and dogs.",
+    "hyp": "यह बारिश के साथ है।"
+  },
+  {
+    "id": 11,
+    "category": "idiom",
+    "src": "Break a leg at your interview tomorrow!",
+    "hyp": "कल के साक्षात्कार में ब्रेक करें!"
+  },
+  {
+    "id": 12,
+    "category": "idiom",
+    "src": "He kicked the bucket last year.",
+    "hyp": "वह पिछले वर्ष में मर गया था।"
+  },
+  {
+    "id": 13,
+    "category": "sensitive",
+    "src": "Take two tablets of paracetamol every six hours after meals.",
+    "hyp": "तीन पाउंड के प्रत्येक घंटे के बाद भोजन के बाद दो टेबलेट्स पैरासिटामोल लें।"
+  },
+  {
+    "id": 14,
+    "category": "sensitive",
+    "src": "The patient tested positive for HIV and needs counselling.",
+    "hyp": "पीड़ित ने एचआईवी के लिए परीक्षण किया है और उसे सलाह देने की आवश्यकता है।"
+  },
+  {
+    "id": 15,
+    "category": "sensitive",
+    "src": "The riot left three people dead and dozens injured.",
+    "hyp": "इस दंगे में तीन लोगों की मौत हो गई और दशकों से सड़कों पर लाखों लोगों को घायल हुआ।"
+  },
+  {
+    "id": 16,
+    "category": "sensitive",
+    "src": "The temple and the mosque stand side by side in the old city.",
+    "hyp": "पुरानी शहर में दोनों मंदिर और मस्जिद के साथ, पुरानी शहर के पास दोनों मंदिर और मस्जिद के साथ।"
+  },
+  {
+    "id": 17,
+    "category": "sensitive",
+    "src": "The court sentenced him to ten years in prison.",
+    "hyp": "न्यायालय ने उसे दस साल की सजा दे दी।"
+  },
+  {
+    "id": 18,
+    "category": "sensitive",
+    "src": "Women facing domestic violence can call the helpline for help.",
+    "hyp": "महिलाएं घरेलू हिंसा से निपटने के लिए सेवाओं के लिए मदद के लिए फोन पर कॉल कर सकती हैं।"
+  },
+  {
+    "id": 19,
+    "category": "facts_numbers",
+    "src": "The meeting is on 12 March 2025 at 4:30 PM and the fee is Rs. 2,500.",
+    "hyp": "12 मार्च 2025 को 4:30 बजे मीटिंग का आयोजन किया जाएगा और शुल्क 2,500 रुपये होगा।"
+  },
+  {
+    "id": 20,
+    "category": "facts_numbers",
+    "src": "Dr. B. R. Ambedkar was born in Mhow in 1891.",
+    "hyp": "डॉ. बी.आर. अम्बेडकर का जन्म मोहव में 1891 में हुआ था।"
+  },
+  {
+    "id": 21,
+    "category": "facts_numbers",
+    "src": "Apple released a new phone in California.",
+    "hyp": "एपल ने कैलिफोर्निया में नया फोन लॉन्च किया।"
+  },
+  {
+    "id": 22,
+    "category": "facts_numbers",
+    "src": "The bank of the river was covered with mud.",
+    "hyp": "नदी के किनारे का बैंक मिट्टी से ढका गया था।"
+  },
+  {
+    "id": 23,
+    "category": "facts_numbers",
+    "src": "The Prime Minister will address the nation at 8 PM tonight.",
+    "hyp": "प्रधान मंत्री रात 8 बजे सभी को संबोधित करेंगे।"
+  },
+  {
+    "id": 24,
+    "category": "robustness",
+    "src": "Yes.",
+    "hyp": "हाँ।"
+  },
+  {
+    "id": 25,
+    "category": "robustness",
+    "src": "Thank you very much for your help yesterday.",
+    "hyp": "धन्यवाद बहुत ही कृपया आपकी सहायता के लिए मैं आज भी धन्यवाद देता हूँ।"
+  },
+  {
+    "id": 26,
+    "category": "robustness",
+    "src": "Lorem ipsum dolor sit amet.",
+    "hyp": "लेकिन, लेकिन, लेकिन।"
+  }
+]

@@ -1,0 +1,87 @@
+{
+  "name": "transformer",
+  "family": "Basic Transformer",
+  "architecture": "Encoder-decoder",
+  "adaptation": "Trained from scratch",
+  "pretrained": false,
+  "model_id": "custom 3+3 layers, d=256",
+  "tokenizer": "SentencePiece BPE (joint, 16000 tokens)",
+  "total_params": 9626624,
+  "trainable_params": 9626624,
+  "n_train": 49985,
+  "train_time_s": 297.0,
+  "tokenizer_train_time_s": 2.2,
+  "train_peak_gpu_mem_gb": 2.17,
+  "bleu": 3.46,
+  "chrf": 22.25,
+  "n_test": 500,
+  "inference_time_s": 6.0,
+  "ms_per_sentence": 12.0,
+  "sentences_per_s": 83.4,
+  "inference_peak_gpu_mem_gb": 0.29,
+  "flags": {
+    "counts": {
+      "empty": 0,
+      "copied_source": 0,
+      "length_outlier": 18,
+      "repetition": 71,
+      "number_mismatch": 66
+    },
+    "rate_pct": {
+      "empty": 0.0,
+      "copied_source": 0.0,
+      "length_outlier": 3.6,
+      "repetition": 14.2,
+      "number_mismatch": 13.2
+    }
+  },
+  "temperature_analysis": {
+    "0.0": {
+      "bleu": 4.42,
+      "chrf": 23.1,
+      "n": 100
+    },
+    "0.3": {
+      "bleu": 3.04,
+      "chrf": 21.97,
+      "n": 100,
+      "flags_pct": {
+        "empty": 0.0,
+        "copied_source": 0.0,
+        "length_outlier": 7.0,
+        "repetition": 7.0,
+        "number_mismatch": 12.0
+      }
+    },
+    "0.7": {
+      "bleu": 2.32,
+      "chrf": 20.59,
+      "n": 100,
+      "flags_pct": {
+        "empty": 0.0,
+        "copied_source": 0.0,
+        "length_outlier": 3.0,
+        "repetition": 0.0,
+        "number_mismatch": 16.0
+      }
+    },
+    "1.0": {
+      "bleu": 1.18,
+      "chrf": 17.9,
+      "n": 100,
+      "flags_pct": {
+        "empty": 0.0,
+        "copied_source": 1.0,
+        "length_outlier": 1.0,
+        "repetition": 0.0,
+        "number_mismatch": 17.0
+      }
+    }
+  },
+  "metric_signatures": {
+    "bleu": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+    "chrf": "nrefs:1|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.6.0"
+  },
+  "device": "Tesla T4",
+  "finished_utc": "2026-10-31T05:10:15+00:00"
+}

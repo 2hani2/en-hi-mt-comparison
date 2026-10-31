@@ -1,0 +1,45 @@
+{
+  "name": "llama_fewshot",
+  "family": "LLaMA",
+  "architecture": "Decoder-only",
+  "adaptation": "3-shot prompting",
+  "pretrained": true,
+  "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+  "tokenizer": "PreTrainedTokenizerFast (128256 tokens)",
+  "total_params": 1235814400,
+  "trainable_params": 0,
+  "n_train": 0,
+  "train_time_s": 0.0,
+  "train_peak_gpu_mem_gb": 0.0,
+  "dtype": "torch.float16",
+  "bleu": 9.2,
+  "chrf": 34.33,
+  "n_test": 500,
+  "inference_time_s": 134.02,
+  "ms_per_sentence": 268.0,
+  "sentences_per_s": 3.73,
+  "inference_peak_gpu_mem_gb": 2.93,
+  "flags": {
+    "counts": {
+      "empty": 0,
+      "copied_source": 0,
+      "length_outlier": 8,
+      "repetition": 8,
+      "number_mismatch": 8
+    },
+    "rate_pct": {
+      "empty": 0.0,
+      "copied_source": 0.0,
+      "length_outlier": 1.6,
+      "repetition": 1.6,
+      "number_mismatch": 1.6
+    }
+  },
+  "temperature_analysis": {},
+  "metric_signatures": {
+    "bleu": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+    "chrf": "nrefs:1|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.6.0"
+  },
+  "device": "Tesla T4",
+  "finished_utc": "2026-10-31T05:58:44+00:00"
+}

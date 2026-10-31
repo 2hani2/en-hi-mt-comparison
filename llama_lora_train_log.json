@@ -1,0 +1,72 @@
+{
+  "log": [
+    {
+      "step": 10,
+      "train_loss": 1.5876
+    },
+    {
+      "step": 20,
+      "train_loss": 1.5425
+    },
+    {
+      "step": 30,
+      "train_loss": 1.5286
+    },
+    {
+      "step": 40,
+      "train_loss": 1.4742
+    },
+    {
+      "step": 50,
+      "train_loss": 1.4969
+    },
+    {
+      "step": 60,
+      "train_loss": 1.4875
+    },
+    {
+      "step": 70,
+      "train_loss": 1.542
+    },
+    {
+      "step": 80,
+      "train_loss": 1.4672
+    },
+    {
+      "step": 90,
+      "train_loss": 1.47
+    },
+    {
+      "step": 100,
+      "train_loss": 1.4354
+    },
+    {
+      "step": 110,
+      "train_loss": 1.4108
+    },
+    {
+      "step": 120,
+      "train_loss": 1.4038
+    },
+    {
+      "step": 130,
+      "train_loss": 1.3804
+    },
+    {
+      "step": 140,
+      "train_loss": 1.4175
+    },
+    {
+      "step": 150,
+      "train_loss": 1.325
+    }
+  ],
+  "train_time_s": 214.9,
+  "val_loss": 1.2319,
+  "n_train_used": 5000,
+  "train_peak_gpu_mem_gb": 6.26,
+  "total_params": 1247086592,
+  "trainable_params": 11272192,
+  "effective_batch": 32,
+  "dtype": "torch.float16"
+}

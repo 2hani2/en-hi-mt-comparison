@@ -1,0 +1,86 @@
+{
+  "name": "mt5",
+  "family": "mT5",
+  "architecture": "Encoder-decoder",
+  "adaptation": "Full fine-tuning",
+  "pretrained": true,
+  "model_id": "google/mt5-small",
+  "tokenizer": "mT5 SentencePiece (250100 tokens)",
+  "total_params": 300176768,
+  "trainable_params": 300176768,
+  "n_train": 20000,
+  "train_time_s": 992.7,
+  "train_peak_gpu_mem_gb": 5.38,
+  "bleu": 1.98,
+  "chrf": 17.92,
+  "n_test": 500,
+  "inference_time_s": 38.56,
+  "ms_per_sentence": 77.1,
+  "sentences_per_s": 12.97,
+  "inference_peak_gpu_mem_gb": 1.52,
+  "flags": {
+    "counts": {
+      "empty": 0,
+      "copied_source": 1,
+      "length_outlier": 86,
+      "repetition": 178,
+      "number_mismatch": 55
+    },
+    "rate_pct": {
+      "empty": 0.0,
+      "copied_source": 0.2,
+      "length_outlier": 17.2,
+      "repetition": 35.6,
+      "number_mismatch": 11.0
+    }
+  },
+  "temperature_analysis": {
+    "0.0": {
+      "bleu": 1.41,
+      "chrf": 16.84,
+      "n": 100
+    },
+    "0.3": {
+      "bleu": 1.99,
+      "chrf": 19.79,
+      "n": 100,
+      "flags_pct": {
+        "empty": 0.0,
+        "copied_source": 0.0,
+        "length_outlier": 10.0,
+        "repetition": 24.0,
+        "number_mismatch": 9.0
+      }
+    },
+    "0.7": {
+      "bleu": 1.77,
+      "chrf": 19.52,
+      "n": 100,
+      "flags_pct": {
+        "empty": 0.0,
+        "copied_source": 0.0,
+        "length_outlier": 3.0,
+        "repetition": 0.0,
+        "number_mismatch": 14.0
+      }
+    },
+    "1.0": {
+      "bleu": 0.68,
+      "chrf": 17.27,
+      "n": 100,
+      "flags_pct": {
+        "empty": 0.0,
+        "copied_source": 0.0,
+        "length_outlier": 4.0,
+        "repetition": 0.0,
+        "number_mismatch": 15.0
+      }
+    }
+  },
+  "metric_signatures": {
+    "bleu": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+    "chrf": "nrefs:1|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.6.0"
+  },
+  "device": "Tesla T4",
+  "finished_utc": "2026-10-31T05:28:17+00:00"
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "category": "gender_bias",
+    "src": "She is a doctor and he is a nurse.",
+    "hyp": "वह एक डॉक्टर है और वह एक नर्स है।"
+  },
+  {
+    "id": 2,
+    "category": "gender_bias",
+    "src": "The engineer finished her project before the deadline.",
+    "hyp": "इंजीनियर ने अपने प्रोजेक्ट को समय पर पूरा करने के लिए पूरी तरह से काम किया था।"
+  },
+  {
+    "id": 3,
+    "category": "gender_bias",
+    "src": "The nurse said he was tired after the long shift.",
+    "hyp": "नurses ने कहा कि वह बहुत थक गया था उसके लंबे समय के काम के बाद।"
+  },
+  {
+    "id": 4,
+    "category": "gender_bias",
+    "src": "My manager is very strict, but she is fair.",
+    "hyp": "मेरे मैनेजर बहुत सख्त हैं, लेकिन वह न्यायपूर्ण हैं।"
+  },
+  {
+    "id": 5,
+    "category": "cultural",
+    "src": "Please remove your shoes before entering the temple.",
+    "hyp": "प्रारंभ में पूजा के लिए पूजा स्थल पर पहुंचें, और पूजा के बाद स्नान करें।"
+  },
+  {
+    "id": 6,
+    "category": "cultural",
+    "src": "We celebrate Diwali by lighting diyas and sharing sweets.",
+    "hyp": "हम दिवाली को जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी जल्दी"
+  },
+  {
+    "id": 7,
+    "category": "cultural",
+    "src": "He touched his grandmother's feet before leaving for the exam.",
+    "hyp": "वह अपनी माँ की पीठ पर चढ़कर निकलने से पहले अपनी माँ के पैरों पर हाथ रख दिया।"
+  },
+  {
+    "id": 8,
+    "category": "cultural",
+    "src": "Rahul and Mohammed are classmates and they study together.",
+    "hyp": "राहुल और मोहम्मद दोनों के साथ छात्र हैं और उन्हें एक साथ पढ़ते हैं।"
+  },
+  {
+    "id": 9,
+    "category": "cultural",
+    "src": "My mother's brother's wife is visiting us this weekend.",
+    "hyp": "मेरी माँ के भाई की पत्नी इस सप्ताह के बीच हमारे साथ जा रही है।"
+  },
+  {
+    "id": 10,
+    "category": "idiom",
+    "src": "It is raining cats and dogs.",
+    "hyp": "यह बारिश के साथ मुर्गे और मुर्गियां भी बारिश कर रहे हैं।"
+  },
+  {
+    "id": 11,
+    "category": "idiom",
+    "src": "Break a leg at your interview tomorrow!",
+    "hyp": "तुम्हारे इंटरव्यू के लिए ब्रेक ले जाओ!"
+  },
+  {
+    "id": 12,
+    "category": "idiom",
+    "src": "He kicked the bucket last year.",
+    "hyp": "वह 2018 में मर गया था।"
+  },
+  {
+    "id": 13,
+    "category": "sensitive",
+    "src": "Take two tablets of paracetamol every six hours after meals.",
+    "hyp": "पैरासिटामोल के दो टेबलेट लेने के बाद खाने के बाद छह घंटे में दो बार।"
+  },
+  {
+    "id": 14,
+    "category": "sensitive",
+    "src": "The patient tested positive for HIV and needs counselling.",
+    "hyp": "पीड़ित ने एचआईवी के संकेत के रूप में परीक्षण किया और सलाह की आवश्यकता है।"
+  },
+  {
+    "id": 15,
+    "category": "sensitive",
+    "src": "The riot left three people dead and dozens injured.",
+    "hyp": "राजधानी में हिंसक विरोध के कारण तीन लोगों की मौत हो गई और कई लोग घायल हुए।"
+  },
+  {
+    "id": 16,
+    "category": "sensitive",
+    "src": "The temple and the mosque stand side by side in the old city.",
+    "hyp": "पुरानी शहर में एक पुराना मंदिर और एक मस्जिद के साथ, यह स्थान एक दूसरे के पास है।"
+  },
+  {
+    "id": 17,
+    "category": "sensitive",
+    "src": "The court sentenced him to ten years in prison.",
+    "hyp": "कोर्ट ने उसे दस साल की सजा दे दी।"
+  },
+  {
+    "id": 18,
+    "category": "sensitive",
+    "src": "Women facing domestic violence can call the helpline for help.",
+    "hyp": "महिलाएं घरेलू हिंसा से सुरक्षा के लिए मदद के लिए हेल्पलाइन कॉल कर सकती हैं।"
+  },
+  {
+    "id": 19,
+    "category": "facts_numbers",
+    "src": "The meeting is on 12 March 2025 at 4:30 PM and the fee is Rs. 2,500.",
+    "hyp": "12 मार्च 2025 को 4:30 बजे मीटिंग होगी और शुल्क 2,500 रुपये होगा।"
+  },
+  {
+    "id": 20,
+    "category": "facts_numbers",
+    "src": "Dr. B. R. Ambedkar was born in Mhow in 1891.",
+    "hyp": "भारत रामचंद्र पुरी के जन्म मोहव में 1891 में हुआ था।"
+  },
+  {
+    "id": 21,
+    "category": "facts_numbers",
+    "src": "Apple released a new phone in California.",
+    "hyp": "एपल ने कैलिफोर्निया में एक नया फोन लॉन्च किया।"
+  },
+  {
+    "id": 22,
+    "category": "facts_numbers",
+    "src": "The bank of the river was covered with mud.",
+    "hyp": "नदी के बैंक को मिट्टी से ढका गया था।"
+  },
+  {
+    "id": 23,
+    "category": "facts_numbers",
+    "src": "The Prime Minister will address the nation at 8 PM tonight.",
+    "hyp": "प्रधानमंत्री को रात को 8 बजे देश को संबोधित करने का कार्यक्रम है।"
+  },
+  {
+    "id": 24,
+    "category": "robustness",
+    "src": "Yes.",
+    "hyp": "हाँ।"
+  },
+  {
+    "id": 25,
+    "category": "robustness",
+    "src": "Thank you very much for your help yesterday.",
+    "hyp": "धन्यवाद बहुत बहुत धन्यवाद आपके सहयोग से मुझे आज के दिन का मौका मिला है ।"
+  },
+  {
+    "id": 26,
+    "category": "robustness",
+    "src": "Lorem ipsum dolor sit amet.",
+    "hyp": "लोरम ipsum dolor sit amet."
+  }
+]

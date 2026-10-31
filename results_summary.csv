@@ -1,0 +1,9 @@
+name,family,architecture,adaptation,model_id,tokenizer,total_params,trainable_params,n_train,train_time_s,train_peak_gpu_mem_gb,inference_time_s,ms_per_sentence,inference_peak_gpu_mem_gb,bleu,chrf,device
+gemma_fewshot,Gemma,Decoder-only,3-shot prompting,google/gemma-3-1b-it,GemmaTokenizerFast (262145 tokens),999885952,0,0,0.0,0.0,183.46,366.9,4.56,13.0,39.33,Tesla T4
+gemma_lora,Gemma,Decoder-only,LoRA fine-tuning (r=16),google/gemma-3-1b-it,GemmaTokenizerFast (262145 tokens),1012931712,13045760,5000,642.3,7.34,200.25,400.5,4.38,12.86,37.86,Tesla T4
+gemma_zeroshot,Gemma,Decoder-only,Zero-shot prompting,google/gemma-3-1b-it,GemmaTokenizerFast (262145 tokens),999885952,0,0,0.0,0.0,142.29,284.6,4.35,11.34,35.04,Tesla T4
+llama_fewshot,LLaMA,Decoder-only,3-shot prompting,meta-llama/Llama-3.2-1B-Instruct,PreTrainedTokenizerFast (128256 tokens),1235814400,0,0,0.0,0.0,134.02,268.0,2.93,9.2,34.33,Tesla T4
+llama_lora,LLaMA,Decoder-only,LoRA fine-tuning (r=16),meta-llama/Llama-3.2-1B-Instruct,PreTrainedTokenizerFast (128256 tokens),1247086592,11272192,5000,214.9,6.26,155.86,311.7,2.74,9.19,34.62,Tesla T4
+llama_zeroshot,LLaMA,Decoder-only,Zero-shot prompting,meta-llama/Llama-3.2-1B-Instruct,PreTrainedTokenizerFast (128256 tokens),1235814400,0,0,0.0,0.0,133.86,267.7,2.72,9.23,36.21,Tesla T4
+mt5,mT5,Encoder-decoder,Full fine-tuning,google/mt5-small,mT5 SentencePiece (250100 tokens),300176768,300176768,20000,992.7,5.38,38.56,77.1,1.52,1.98,17.92,Tesla T4
+transformer,Basic Transformer,Encoder-decoder,Trained from scratch,"custom 3+3 layers, d=256","SentencePiece BPE (joint, 16000 tokens)",9626624,9626624,49985,297.0,2.17,6.0,12.0,0.29,3.46,22.25,Tesla T4

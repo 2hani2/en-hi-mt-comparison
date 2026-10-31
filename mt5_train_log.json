@@ -1,0 +1,20 @@
+{
+  "log": [
+    {
+      "epoch": 1,
+      "train_loss": 5.3416,
+      "val_loss": 2.7463,
+      "epoch_time_s": 499.5
+    },
+    {
+      "epoch": 2,
+      "train_loss": 3.1896,
+      "val_loss": 2.6218,
+      "epoch_time_s": 493.2
+    }
+  ],
+  "train_time_s": 992.7,
+  "n_train_used": 20000,
+  "train_peak_gpu_mem_gb": 5.38,
+  "bf16": false
+}

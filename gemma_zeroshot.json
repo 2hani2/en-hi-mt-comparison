@@ -1,0 +1,45 @@
+{
+  "name": "gemma_zeroshot",
+  "family": "Gemma",
+  "architecture": "Decoder-only",
+  "adaptation": "Zero-shot prompting",
+  "pretrained": true,
+  "model_id": "google/gemma-3-1b-it",
+  "tokenizer": "GemmaTokenizerFast (262145 tokens)",
+  "total_params": 999885952,
+  "trainable_params": 0,
+  "n_train": 0,
+  "train_time_s": 0.0,
+  "train_peak_gpu_mem_gb": 0.0,
+  "dtype": "torch.float32",
+  "bleu": 11.34,
+  "chrf": 35.04,
+  "n_test": 500,
+  "inference_time_s": 142.29,
+  "ms_per_sentence": 284.6,
+  "sentences_per_s": 3.51,
+  "inference_peak_gpu_mem_gb": 4.35,
+  "flags": {
+    "counts": {
+      "empty": 19,
+      "copied_source": 23,
+      "length_outlier": 4,
+      "repetition": 0,
+      "number_mismatch": 9
+    },
+    "rate_pct": {
+      "empty": 3.8,
+      "copied_source": 4.6,
+      "length_outlier": 0.8,
+      "repetition": 0.0,
+      "number_mismatch": 1.8
+    }
+  },
+  "temperature_analysis": {},
+  "metric_signatures": {
+    "bleu": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+    "chrf": "nrefs:1|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.6.0"
+  },
+  "device": "Tesla T4",
+  "finished_utc": "2026-10-31T06:01:26+00:00"
+}

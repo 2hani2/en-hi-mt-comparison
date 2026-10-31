@@ -1,0 +1,87 @@
+{
+  "name": "gemma_lora",
+  "family": "Gemma",
+  "architecture": "Decoder-only",
+  "adaptation": "LoRA fine-tuning (r=16)",
+  "pretrained": true,
+  "model_id": "google/gemma-3-1b-it",
+  "tokenizer": "GemmaTokenizerFast (262145 tokens)",
+  "total_params": 1012931712,
+  "trainable_params": 13045760,
+  "n_train": 5000,
+  "train_time_s": 642.3,
+  "train_peak_gpu_mem_gb": 7.34,
+  "dtype": "torch.float32",
+  "bleu": 12.86,
+  "chrf": 37.86,
+  "n_test": 500,
+  "inference_time_s": 200.25,
+  "ms_per_sentence": 400.5,
+  "sentences_per_s": 2.5,
+  "inference_peak_gpu_mem_gb": 4.38,
+  "flags": {
+    "counts": {
+      "empty": 0,
+      "copied_source": 3,
+      "length_outlier": 12,
+      "repetition": 7,
+      "number_mismatch": 9
+    },
+    "rate_pct": {
+      "empty": 0.0,
+      "copied_source": 0.6,
+      "length_outlier": 2.4,
+      "repetition": 1.4,
+      "number_mismatch": 1.8
+    }
+  },
+  "temperature_analysis": {
+    "0.0": {
+      "bleu": 12.06,
+      "chrf": 37.75,
+      "n": 100
+    },
+    "0.3": {
+      "bleu": 8.72,
+      "chrf": 36.29,
+      "n": 100,
+      "flags_pct": {
+        "empty": 0.0,
+        "copied_source": 0.0,
+        "length_outlier": 4.0,
+        "repetition": 3.0,
+        "number_mismatch": 3.0
+      }
+    },
+    "0.7": {
+      "bleu": 8.13,
+      "chrf": 33.39,
+      "n": 100,
+      "flags_pct": {
+        "empty": 0.0,
+        "copied_source": 0.0,
+        "length_outlier": 1.0,
+        "repetition": 0.0,
+        "number_mismatch": 6.0
+      }
+    },
+    "1.0": {
+      "bleu": 2.35,
+      "chrf": 21.28,
+      "n": 100,
+      "flags_pct": {
+        "empty": 0.0,
+        "copied_source": 2.0,
+        "length_outlier": 3.0,
+        "repetition": 0.0,
+        "number_mismatch": 9.0
+      }
+    }
+  },
+  "metric_signatures": {
+    "bleu": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+    "chrf": "nrefs:1|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.6.0"
+  },
+  "device": "Tesla T4",
+  "finished_utc": "2026-10-31T05:53:39+00:00"
+}

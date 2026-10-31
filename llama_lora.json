@@ -1,0 +1,87 @@
+{
+  "name": "llama_lora",
+  "family": "LLaMA",
+  "architecture": "Decoder-only",
+  "adaptation": "LoRA fine-tuning (r=16)",
+  "pretrained": true,
+  "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+  "tokenizer": "PreTrainedTokenizerFast (128256 tokens)",
+  "total_params": 1247086592,
+  "trainable_params": 11272192,
+  "n_train": 5000,
+  "train_time_s": 214.9,
+  "train_peak_gpu_mem_gb": 6.26,
+  "dtype": "torch.float16",
+  "bleu": 9.19,
+  "chrf": 34.62,
+  "n_test": 500,
+  "inference_time_s": 155.86,
+  "ms_per_sentence": 311.7,
+  "sentences_per_s": 3.21,
+  "inference_peak_gpu_mem_gb": 2.74,
+  "flags": {
+    "counts": {
+      "empty": 0,
+      "copied_source": 1,
+      "length_outlier": 22,
+      "repetition": 27,
+      "number_mismatch": 7
+    },
+    "rate_pct": {
+      "empty": 0.0,
+      "copied_source": 0.2,
+      "length_outlier": 4.4,
+      "repetition": 5.4,
+      "number_mismatch": 1.4
+    }
+  },
+  "temperature_analysis": {
+    "0.0": {
+      "bleu": 9.59,
+      "chrf": 35.26,
+      "n": 100
+    },
+    "0.3": {
+      "bleu": 7.4,
+      "chrf": 33.51,
+      "n": 100,
+      "flags_pct": {
+        "empty": 0.0,
+        "copied_source": 0.0,
+        "length_outlier": 1.0,
+        "repetition": 2.0,
+        "number_mismatch": 2.0
+      }
+    },
+    "0.7": {
+      "bleu": 5.45,
+      "chrf": 29.33,
+      "n": 100,
+      "flags_pct": {
+        "empty": 0.0,
+        "copied_source": 0.0,
+        "length_outlier": 4.0,
+        "repetition": 0.0,
+        "number_mismatch": 2.0
+      }
+    },
+    "1.0": {
+      "bleu": 1.18,
+      "chrf": 20.46,
+      "n": 100,
+      "flags_pct": {
+        "empty": 0.0,
+        "copied_source": 3.0,
+        "length_outlier": 12.0,
+        "repetition": 0.0,
+        "number_mismatch": 4.0
+      }
+    }
+  },
+  "metric_signatures": {
+    "bleu": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+    "chrf": "nrefs:1|case:mixed|eff:yes|nc:6|nw:0|space:no|version:2.6.0"
+  },
+  "device": "Tesla T4",
+  "finished_utc": "2026-10-31T05:36:21+00:00"
+}

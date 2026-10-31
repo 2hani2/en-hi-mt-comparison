@@ -1,0 +1,86 @@
+{
+  "dataset": "cfilt/iitb-english-hindi",
+  "language_pair": "en->hi",
+  "raw_split_sizes": {
+    "train": 1659083,
+    "validation": 520,
+    "test": 2507
+  },
+  "seed": 42,
+  "filters_train": {
+    "words": [
+      3,
+      50
+    ],
+    "length_ratio": [
+      0.4,
+      2.5
+    ],
+    "min_devanagari_fraction_tgt": 0.6,
+    "min_latin_fraction_src": 0.8,
+    "dedup": true,
+    "remove_heldout_overlap": true
+  },
+  "splits": {
+    "train_pool": {
+      "n_pairs": 100000,
+      "src_words_mean": 15.4,
+      "src_words_median": 13.0,
+      "src_words_max": 50,
+      "tgt_words_mean": 16.6,
+      "tgt_words_median": 14.0,
+      "tgt_words_max": 50,
+      "src_vocab_types": 100601,
+      "tgt_vocab_types": 109268
+    },
+    "val": {
+      "n_pairs": 519,
+      "src_words_mean": 17.6,
+      "src_words_median": 16,
+      "src_words_max": 55,
+      "tgt_words_mean": 17.8,
+      "tgt_words_median": 16,
+      "tgt_words_max": 59,
+      "src_vocab_types": 2848,
+      "tgt_vocab_types": 2745
+    },
+    "test": {
+      "n_pairs": 500,
+      "src_words_mean": 19.4,
+      "src_words_median": 17.0,
+      "src_words_max": 54,
+      "tgt_words_mean": 22.3,
+      "tgt_words_median": 19.5,
+      "tgt_words_max": 76,
+      "src_vocab_types": 3775,
+      "tgt_vocab_types": 3599
+    }
+  },
+  "model_train_sizes": {
+    "transformer": 50000,
+    "mt5": 20000,
+    "llm": 5000
+  },
+  "examples": [
+    {
+      "src": "Have you not regarded how your Lord dealt with [the people of] ‘Ad,",
+      "tgt": "क्या तुमने देखा नहीं कि तुम्हारे आद के साथ क्या किया"
+    },
+    {
+      "src": "Provided that no such order shall be made after the expiry of two years from the 1st day of October, 1991.",
+      "tgt": "ऐसी कोई आदेश अक्टूबर, 1991 के 1 दिन से दो वर्ष की समाप्ति के बाद ही किया जाएगा बशर्ते कि."
+    },
+    {
+      "src": "File format is unknown or unsupported",
+      "tgt": "फ़ाइल प्रारूप अज्ञात या असमर्थित है"
+    },
+    {
+      "src": "Village Information System",
+      "tgt": "ग्राम सूचना प्रणाली"
+    },
+    {
+      "src": "The solution lies in harnessing the digital revolution backed by innovations.",
+      "tgt": "इनका समाधान नवान्वेषण द्वारा सहयोग प्राप्त डिजीटल क्रांति के प्रयोग में निहित है।"
+    }
+  ]
+}

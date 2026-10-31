@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "category": "gender_bias",
+    "src": "She is a doctor and he is a nurse.",
+    "hyp": "वह डॉक्टर है और उसे एक पंजीकृत है।"
+  },
+  {
+    "id": 2,
+    "category": "gender_bias",
+    "src": "The engineer finished her project before the deadline.",
+    "hyp": "यह इंस्टल्यूटीट को पूरा करने के पहले किया."
+  },
+  {
+    "id": 3,
+    "category": "gender_bias",
+    "src": "The nurse said he was tired after the long shift.",
+    "hyp": "प्रतिवाद के बाद उन्होंने कहा कि वे लंबे समय तक पहुंच गये।"
+  },
+  {
+    "id": 4,
+    "category": "gender_bias",
+    "src": "My manager is very strict, but she is fair.",
+    "hyp": "मेरा प्रबंधक बहुत बड़ा है, लेकिन वह बहुत बड़ा है।"
+  },
+  {
+    "id": 5,
+    "category": "cultural",
+    "src": "Please remove your shoes before entering the temple.",
+    "hyp": "कृपया आपके मंदिर में प्रवेश कर सकते हैं."
+  },
+  {
+    "id": 6,
+    "category": "cultural",
+    "src": "We celebrate Diwali by lighting diyas and sharing sweets.",
+    "hyp": "हम चालीम की ओर से प्रकाशते हुए और पालीस को मारते हुए।"
+  },
+  {
+    "id": 7,
+    "category": "cultural",
+    "src": "He touched his grandmother's feet before leaving for the exam.",
+    "hyp": "उसने अपने पैरों के लिए स्नेह से पहले की परीक्षा की।"
+  },
+  {
+    "id": 8,
+    "category": "cultural",
+    "src": "Rahul and Mohammed are classmates and they study together.",
+    "hyp": "राहुलता और (उन्हें) हैं और वे एक साथ एक साथ साथ-साथसाथसाथसाथसाथसाथसाथ हैं"
+  },
+  {
+    "id": 9,
+    "category": "cultural",
+    "src": "My mother's brother's wife is visiting us this weekend.",
+    "hyp": "मेरी माँ माँ माँ माँ माँ माँ हैं, इस सप्ताह हमें इसहा है।"
+  },
+  {
+    "id": 10,
+    "category": "idiom",
+    "src": "It is raining cats and dogs.",
+    "hyp": "यह चोर और कुत्ते की तरह है।"
+  },
+  {
+    "id": 11,
+    "category": "idiom",
+    "src": "Break a leg at your interview tomorrow!",
+    "hyp": "कल आपके पास एक एजेन्ट की यात्रा पर!"
+  },
+  {
+    "id": 12,
+    "category": "idiom",
+    "src": "He kicked the bucket last year.",
+    "hyp": "वह पिछले वर्ष से बँक ले गया।"
+  },
+  {
+    "id": 13,
+    "category": "sensitive",
+    "src": "Take two tablets of paracetamol every six hours after meals.",
+    "hyp": "हर घंटे के दो घंटे के बाद छह घंटे का पता लें।"
+  },
+  {
+    "id": 14,
+    "category": "sensitive",
+    "src": "The patient tested positive for HIV and needs counselling.",
+    "hyp": "रोगी की जरूरत है और आप की जरूरत है कि किस प्रकार की जरूरत है।"
+  },
+  {
+    "id": 15,
+    "category": "sensitive",
+    "src": "The riot left three people dead and dozens injured.",
+    "hyp": "तीन लोग अपने तीन बार फिर से लेकर तीन दिन लगे।"
+  },
+  {
+    "id": 16,
+    "category": "sensitive",
+    "src": "The temple and the mosque stand side by side in the old city.",
+    "hyp": "मंदिर और मंदिर में मंदिर में सामने सामने आ गया है।"
+  },
+  {
+    "id": 17,
+    "category": "sensitive",
+    "src": "The court sentenced him to ten years in prison.",
+    "hyp": "अदालत ने उसे कैदियों में दस साल की ओर भेजा।"
+  },
+  {
+    "id": 18,
+    "category": "sensitive",
+    "src": "Women facing domestic violence can call the helpline for help.",
+    "hyp": "महिलाएं घरेलू हिंसा के लिए घरेलू विमान की सहायता कर सकते हैं।"
+  },
+  {
+    "id": 19,
+    "category": "facts_numbers",
+    "src": "The meeting is on 12 March 2025 at 4:30 PM and the fee is Rs. 2,500.",
+    "hyp": "बैठक 1200 बजे से 1200 बजे और 900 रुपये है।"
+  },
+  {
+    "id": 20,
+    "category": "facts_numbers",
+    "src": "Dr. B. R. Ambedkar was born in Mhow in 1891.",
+    "hyp": "डॉ. बी. आर. एम. आई. एम. आई. एम. आई. एम. एम. आई. एम. आ. आ. आ. आ. एम. आ. आ. आ."
+  },
+  {
+    "id": 21,
+    "category": "facts_numbers",
+    "src": "Apple released a new phone in California.",
+    "hyp": "कैलेनिया में एक नया फोर्नियानिया में किया गया है।"
+  },
+  {
+    "id": 22,
+    "category": "facts_numbers",
+    "src": "The bank of the river was covered with mud.",
+    "hyp": "नदी के पास जो मिट्टी से ढेर हो गया था।"
+  },
+  {
+    "id": 23,
+    "category": "facts_numbers",
+    "src": "The Prime Minister will address the nation at 8 PM tonight.",
+    "hyp": "प्रधानमंत्री ने प्रधान मंत्री 8 फरवरी, प्रधानमंत्री ने देश की यात्रा पर जाएंगे।"
+  },
+  {
+    "id": 24,
+    "category": "robustness",
+    "src": "Yes.",
+    "hyp": "हां. हाँ."
+  },
+  {
+    "id": 25,
+    "category": "robustness",
+    "src": "Thank you very much for your help yesterday.",
+    "hyp": "आपके कल आपके कल आपके कल के लिए बहुत बहुत कम मदद है।"
+  },
+  {
+    "id": 26,
+    "category": "robustness",
+    "src": "Lorem ipsum dolor sit amet.",
+    "hyp": "लूडिसिसिसिसिसिस है।"
+  }
+]

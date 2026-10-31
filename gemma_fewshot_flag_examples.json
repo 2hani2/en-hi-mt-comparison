@@ -1,0 +1,89 @@
+{
+  "empty": [],
+  "copied_source": [
+    {
+      "idx": 37,
+      "src": "The Punjab quota of 2.72 lakh kilolitres was reduced to one lakh kilolitres.",
+      "hyp": "पंजाब काQuota 2.72 लाखKilolitres को एक लाख Kilolitres में कम कर दिया गया।",
+      "ref": "पंजाब का कोटा 2.72 लाख किलो लीटर से घटा कर एक लाख किलो लीटर किया गया।"
+    },
+    {
+      "idx": 104,
+      "src": "Wonks call it a mileage-based user fee.",
+      "hyp": "वे कहते हैं कि यह एक ' Mileage-based user fee' है।",
+      "ref": "वॉन्क्स इसे माइलेज-आधारित उपयोगकर्ता शुल्क कहते हैं।"
+    },
+    {
+      "idx": 253,
+      "src": "The Rural Distrct President of Congress, Jaideep Dhankhad, Jagat Kala, Dharmbeer Vakil, Balaram Dangi, Vikas Sisar, Shamsher Kharak, Anil Sharma, Dr. Sunil Rangi, Deepak Gupta, Dharamraj Sarpanch, Sadhu Baba and Nirmala Rathi were also present at this event.",
+      "hyp": "कांग्रेस के ग्रामीण districts president Jaideep Dhankhad, jagat Kala, Dharmbeer Vakil, Balaram Dangi, Vikas Sisar, Shamsher Kharak, Anil Sharma, Dr. Sunil Rangi, Deepak Gupta, Dharamraj Sarpanch, Sadhu Baba और Nirmala Rathi ने इस कार्यक्रम में भी शामिल हुए।",
+      "ref": "इस दौरान कांग्रेस के ग्रामीण जिला अध्यक्ष जयदीप धनखड़, जगत काला, धर्मबीर वकील, बलराम दांगी, विकास सीसर, शमशेर खरक, अनिल शर्मा, डॉ. सुनील रांगी, दीपक गुप्ता, धर्मराज सरपंच, साधु बाबा और निर्मला राठी मौजूद रहे।"
+    },
+    {
+      "idx": 384,
+      "src": "Also present with him were DC K.K. Yadav, SSP Ravcharan Singh Barad, ADC D. Sonali Giri, ADC Rajiv Parashar, SDM Shruti Sharma, Talavadi Sabo Area Incharge Balveer Singh, Sarpanch Kulwant Singh Virk along with administrative officers of various departments and Akali leaders.",
+      "hyp": "साथ में, श्री गांधी के साथ DC K.K. Yadav, SSP Ravcharan Singh Barad, ADC D. Sonali Giri, ADC Rajiv Parashar, SDM Shruti Sharma, Talavadi Sabo Area Incharge Balveer Singh, Sarpanch Kulwant Singh Virk, और विभिन्न विभागों के प्रशासनिक अधिकारियों के साथ भी शामिल थे।",
+      "ref": "उनके साथ डीसी केके यादव, एसएसपी रवचरन सिंह बराड़, एडीसी डी सोनाली गिरी, एडीसी राजीव पराशर, एसडीएम श्रुति शर्मा, तलवंडी साबो के क्षेत्र इंचार्ज बलवीर सिंह, सरपंच कुलवंत सिंह विर्क के अलावा विभिन्न विभागों के प्रशासनिक अफसर व अकाली नेता उपस्थित थे।"
+    },
+    {
+      "idx": 490,
+      "src": "In this program Sukh Kala Manch, Jaunsaar presented 'Kesari teri yaad mein kashi bhulauni, Jiyendei teri yaddon bira kashi mitauni', 'Veer kesari chand ji ki harut', Jaunsaar ke aradhya dev mahasu devata ki vandana; etc. Cultural programs were presented.",
+      "hyp": "इस कार्यक्रम में, सुख Kala Manch, जुनसाार ने 'केसरী तेरी याद में कशि बूलुनी, जiyendei teri yaddon bira kashi mitauni', 'वीरKesari chand ji ki harut', सुख Kala Manch के आर्डुया देव महसुदेव देवता ki Vandana आदि सांस्कृतिक कार्यक्रम प्रस्तुत किए।",
+      "ref": "कार्यक्रम में वीर सुख कला मंच जौनसार की ओर से 'केसरी तेरी याद मैं कशी भुलउणी, जियदेंई तेरी यादों बीरा कशी मिटाउणी', 'वीर केसरी चंद जी की हारुत', 'जौनसार के आराध्य देव महासु देवता की वंदना' आदि एक से बढ़कर एक सांस्कृतिक कार्यक्रम पेश किए गए।"
+    }
+  ],
+  "length_outlier": [
+    {
+      "idx": 100,
+      "src": "The firefighters were brilliant.",
+      "hyp": "दफ़़ाफ़ा फ़ायरफ़िलर्स थे।",
+      "ref": "अग्निशामक दल ने बहुत शानदार कार्य किया।"
+    },
+    {
+      "idx": 319,
+      "src": "An exasperated Sebelius uttered that phrase, caught by a hot mic, to an aide seated behind her at yesterday's House hearing following a contentious exchange with Rep. Billy Long, R-Mo., over whether she should be required to enroll in Obamacare.",
+      "hyp": "एक निराश Sebelius ने उस वाक्यांश को कहा, जो एक हॉट माइक्रोफोन के सामने एक सहायक को पकड़ता है, और एक बहस के बाद एक विवादित आदान-प्रदान के बाद, एक रेप-मो, के साथ एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद",
+      "ref": "रिपब्लिकन के साथ तीखी नोकझोंक के पश्चात कल हाउस की सुनवाई में अपने पीछे बैठी एक साथी से सेबेलियस ने गुस्से में यह वाक्य कहा, जिसे एक माइक ने पकड़ लिया। बिली लॉन्ग, आर-मो इसके बारे में कि क्या उन्हें ओबामाकेयर में नामांकित होने की आवश्यकता होगी।"
+    },
+    {
+      "idx": 407,
+      "src": "Departmental actions are being brought against the tax defaulters.",
+      "hyp": "विभाग के कार्य करदेन के खिलाफ करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदे",
+      "ref": "कर वंचकों के खिलाफ विभागीय कार्रवाई होती है।"
+    }
+  ],
+  "repetition": [
+    {
+      "idx": 319,
+      "src": "An exasperated Sebelius uttered that phrase, caught by a hot mic, to an aide seated behind her at yesterday's House hearing following a contentious exchange with Rep. Billy Long, R-Mo., over whether she should be required to enroll in Obamacare.",
+      "hyp": "एक निराश Sebelius ने उस वाक्यांश को कहा, जो एक हॉट माइक्रोफोन के सामने एक सहायक को पकड़ता है, और एक बहस के बाद एक विवादित आदान-प्रदान के बाद, एक रेप-मो, के साथ एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद, एक बहस के बाद",
+      "ref": "रिपब्लिकन के साथ तीखी नोकझोंक के पश्चात कल हाउस की सुनवाई में अपने पीछे बैठी एक साथी से सेबेलियस ने गुस्से में यह वाक्य कहा, जिसे एक माइक ने पकड़ लिया। बिली लॉन्ग, आर-मो इसके बारे में कि क्या उन्हें ओबामाकेयर में नामांकित होने की आवश्यकता होगी।"
+    },
+    {
+      "idx": 407,
+      "src": "Departmental actions are being brought against the tax defaulters.",
+      "hyp": "विभाग के कार्य करदेन के खिलाफ करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदेन करदे",
+      "ref": "कर वंचकों के खिलाफ विभागीय कार्रवाई होती है।"
+    }
+  ],
+  "number_mismatch": [
+    {
+      "idx": 46,
+      "src": "A.R. Rahman sang his signature songs in the musical evening that started at 8 p.m.",
+      "hyp": "ए.आर. रहमान ने संगीत कार्यक्रम की शुरुआत में अपनी प्रसिद्ध गाने के साथ किया।",
+      "ref": "रात 8 बजे शुरू हुए इस म्यूजिकल नाइट में रहमान अपने सिग्नेचर सांग्स की प्रस्तुति दी।"
+    },
+    {
+      "idx": 316,
+      "src": "DAVP has spent 33 crores on the birth and death anniversaries, 21 crores for former PM Rajiv Gandhi, 14.5 crores for Indira Gandhi and Rs.9.38 crores for Jawaharlal Nehru, on print advertising.",
+      "hyp": "DAVP ने जन्म और मृत्यु के पर्तनों के लिए 33 करोड़ खर्च किए, पूर्व प्रधान राजवीर गांधी के लिए 21 करोड़, इंदिरा गांधी के लिए 14.5 करोड़ और जवाहरलाल नेहरू के लिए 14.5 करोड़ प्रिंट विज्ञापन पर खर्च किया।",
+      "ref": "डीएवीपी ने महात्मा गांधी की जयंती और पुण्यतिथि के लिए 33 करोड़, पूर्व पीएम राजीव गांधी के लिए 21 करोड़, इंदिरा गांधी के लिए 14.5 करोड़ और जवाहर लाल नेहरू के लिए 9.38 करोड़ रुपए प्रिंट विज्ञापनों पर खर्च किए गए।"
+    },
+    {
+      "idx": 454,
+      "src": "Typically pawnbrokers in Singapore charge an effective annual percentage rate of 17 per cent, just above the 15.4 per cent offered at United Overseas Bank, a local lender with a branch in the same shopping centre.",
+      "hyp": "आमतौर पर सिंगापुर में, pawnbrokers एक प्रभावी वार्षिक ब्याज दर के 17% का शुल्क लेते हैं, जो कि संयुक्त राज्य अमेरिका के यूओएसओबंक से थोड़ा ऊपर है, एक स्थानीय ऋणदाता जो उसी शॉपिंग सेंटर में एक शाखा रखता है।",
+      "ref": "आम तौर पर सिंगापुर में पॉनब्रोकर 17 प्रतिशत प्रति वर्ष ब्याज लेते हैं, जो युनाइटेड ओवरसीज बैंक द्वारा पेश किए जाने वाले 15.4 प्रतिशत से थोड़ा ही अधिक है, जो स्थानीय ऋणदाता है जिसकी उसी शॉपिंग सेन्टर में शाखा है।"
+    }
+  ]
+}
